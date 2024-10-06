@@ -26,8 +26,8 @@ public class PostController {
 
     public void getById(long id, HttpServletResponse response) throws IOException {
         response.setContentType(APPLICATION_JSON);
-        final var data = service.getById(id);
         final var gson = new Gson();
+        final var data = service.getById(id);
         response.getWriter().print(gson.toJson(data));
     }
 

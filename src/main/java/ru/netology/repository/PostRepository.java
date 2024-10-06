@@ -2,28 +2,34 @@ package ru.netology.repository;
 
 import ru.netology.model.Post;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 // Stub
 public class PostRepository {
-    List<Post> posts = new ArrayList<>();
-    public List<Post> all() {
-        return posts;
+    static Storage storage = Storage.getStorage();
+
+    //метод для просмотра всех постов
+    public static Map<Long, String> all() {
+        return storage.getPosts();
     }
 
-    public Optional<Post> getById(long id) {
-        return Optional.ofNullable(posts.get(Math.toIntExact(id)));
+    public static Optional<String> getById(long id) {
+        return Optional.ofNullable(storage.getPostsId(id));
     }
 
-    public Post save(Post post) {
-            posts.set(Math.toIntExact(post.getId()), post);
+    public static Post save(Post post) {
+        long id;
+        if(post.getId() == 0){
+            id = storage.newPosts(post.getContent());
+            post.setId(id);
+        } else {
+            storage.updatePosts(post.getId(), post.getContent());
+        }
         return post;
     }
 
-    public void removeById(long id) {
-        posts.remove(Math.toIntExact(id));
+    public static void removeById(long id) {
+        storage.delete(id);
     }
 }
