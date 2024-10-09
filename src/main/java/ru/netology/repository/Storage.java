@@ -2,12 +2,12 @@ package ru.netology.repository;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicLong;
 
 public class Storage {
     private static Storage instance;
-    ;
     private static Map<Long, String> posts = new ConcurrentHashMap<>();
-    static long counter;
+    private static AtomicLong counter = new AtomicLong();
 
     private Storage() {
     }
@@ -24,9 +24,9 @@ public class Storage {
     }
 
     public static long newPosts(String str) {
-        posts.put(counter, str);
-        counter++;
-        return counter - 1;
+        posts.put(counter.get(), str);
+        counter.getAndIncrement();
+        return counter.get() - 1;
     }
 
     public static void updatePosts(long lon, String str) {
