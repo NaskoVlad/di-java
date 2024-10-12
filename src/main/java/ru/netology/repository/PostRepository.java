@@ -7,7 +7,6 @@ import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
 // Stub
-@Repository
 public class PostRepository {
     static Storage storage = Storage.getStorage();
 
