@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5727e59c-49e9-494b-9c59-44e349cf2f28" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/config/JavaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/Storage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +61,13 @@
     "HTTP Request.request | #1.executor": "Run",
     "JavaScript Debug.Tomcat 9.0.95 JavaScript.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 9.0.95.executor": "Run",
     "Tomcat Server.Unnamed.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "feature/di-java",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Задачи по Нетологии/Web, Spring & Spring MVC/04.Servlets Containers/ServletsContainers/src/main",
+    "last_opened_file_path": "D:/Задачи по Нетологии/Web, Spring & Spring MVC/04.Servlets Containers/ServletsContainers/src/main/java/feature/diannotation",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,11 +81,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\feature\diannotation" />
+      <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\feature\diannotation\servlet" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\webapp\WEB-INF" />
-      <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers" />
-      <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\org\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\test" />
@@ -237,11 +241,23 @@
       <workItem from="1728199091528" duration="40000" />
       <workItem from="1728199151887" duration="230000" />
       <workItem from="1728200640116" duration="28000" />
-      <workItem from="1728200686354" duration="15246000" />
+      <workItem from="1728200686354" duration="17393000" />
+      <workItem from="1728730507856" duration="6477000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
