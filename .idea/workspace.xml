@@ -10,11 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5727e59c-49e9-494b-9c59-44e349cf2f28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/netology/config/JavaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/config/JavaConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,57 +57,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "HTTP Request.request | #1.executor": "Run",
-    "JavaScript Debug.Tomcat 9.0.95 JavaScript.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.95.executor": "Run",
-    "Tomcat Server.Unnamed.executor": "Run",
-    "git-widget-placeholder": "feature/di-java",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Задачи по Нетологии/Web, Spring & Spring MVC/04.Servlets Containers/ServletsContainers/src/main/java/feature/diannotation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MainServlet.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.All in request.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.request | #1.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Tomcat 9.0.95 JavaScript.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.95.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.Unnamed.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/di-java&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Задачи по Нетологии/Web, Spring &amp; Spring MVC/04.Servlets Containers/ServletsContainers/src/main/java/ru/netology&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\ru\netology" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\feature\diannotation" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\feature\diannotation\servlet" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java" />
-      <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\main\java\webapp\WEB-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\src\test" />
       <recent name="D:\Задачи по Нетологии\Web, Spring &amp; Spring MVC\04.Servlets Containers\ServletsContainers\04_serlvets\servlets\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.95">
-    <configuration name="request | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/src/main/java/test/request.http" requestIdentifier="#1" runType="Run single request">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 9.0.95" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.95" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ServletsContainers:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/ServletsContainers_war_exploded" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="95d7aa86-ab34-43d8-90b6-9e3159e4ed89" />
+        <option name="BASE_DIRECTORY_NAME" value="209ac729-a031-4f6f-b961-c15e1653daa9" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -114,7 +114,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50474" />
+        <option name="DEBUG_PORT" value="9250" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -183,11 +183,6 @@
         </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="HTTP Request.request | #1" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -242,7 +237,19 @@
       <workItem from="1728199151887" duration="230000" />
       <workItem from="1728200640116" duration="28000" />
       <workItem from="1728200686354" duration="17393000" />
-      <workItem from="1728730507856" duration="6477000" />
+      <workItem from="1728730507856" duration="7433000" />
+      <workItem from="1728766316418" duration="18000" />
+      <workItem from="1728766348502" duration="6000" />
+      <workItem from="1728766369226" duration="5000" />
+      <workItem from="1728766399199" duration="12000" />
+      <workItem from="1728938363932" duration="19000" />
+      <workItem from="1728938689116" duration="34000" />
+      <workItem from="1728938735371" duration="1381000" />
+      <workItem from="1729015851826" duration="892000" />
+      <workItem from="1729016781288" duration="12000" />
+      <workItem from="1729016917883" duration="412000" />
+      <workItem from="1729017342250" duration="124000" />
+      <workItem from="1729017485112" duration="669000" />
     </task>
     <servers />
   </component>
